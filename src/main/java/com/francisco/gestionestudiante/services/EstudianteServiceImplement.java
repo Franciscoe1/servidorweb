@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-@WebService(endpointInterface = "com.elvis.gestionestudiante.services.EstudianteService")
+@WebService(endpointInterface = "com.francisco.gestionestudiante.services.EstudianteService")
 public class EstudianteServiceImplement implements EstudianteService {
 
     private static final List<Estudiantes> estudiantes = new ArrayList<>();
